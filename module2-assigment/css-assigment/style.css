@@ -1,0 +1,91 @@
+*{
+	box-sizing: border-box;
+	margin: 10px;
+}
+body{
+	background-color: #000000;
+
+}
+h1{
+		margin-bottom: 15 px;
+		font-weight: bold;
+		text-align: center;
+		font-family: "Papyrus";
+		color: #ff3300;
+	}
+h1.head{
+	position:relative;
+	left: 70%;
+	width: 30%;
+	top: 0px;
+	margin: 0px;
+	color: #000000;
+}
+#h1{
+	background-color: #ffcc80;
+
+}
+#h2{
+	background-color: #ffa31a;
+	
+}
+#h3{
+	background-color: #cc7a00;
+	
+}
+section{
+	border: 2px solid black;
+}
+#section1{
+	background-color: #ff5c33;
+}
+#section2{
+	background-color: #ffcc80;
+}
+#section3{
+	background-color: #fff0b3;
+}
+p{
+	text-align: center;
+	font-family: arial;	
+	clear;
+}
+
+
+.row{
+	width: 100%
+}
+
+/*Large devices*/
+@media (min-width: 992px){
+	.col-lg{
+		float: left;
+		margin: 5px;
+	}
+	.col-lg{
+		width: 30.33%;
+	}
+}
+/*Meium devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md{
+		float: left;
+		margin: 5px; 
+	}
+	.col-md{
+		width: 45%
+	}
+	.col-md-cl{
+		clear: left;
+		width: 92%
+	}
+}
+/*Small devices*/
+@media (max-width: 767px){
+	.col-sm{
+		float: left;
+	}
+	.col-sm{
+		width: 100%
+	}
+}
